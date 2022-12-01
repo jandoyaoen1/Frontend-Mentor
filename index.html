@@ -9,16 +9,32 @@
   </head>
   <body>
     <main>
+      <header>
+        <div class="flex container">
+          <div class="logo"><img src="./images/smiley.svg" alt="logo" /></div>
+          <nav>
+            <ul class="nav-list">
+              <li class="nav-item">
+                <a href="#projects-link" class="nav-link">projects</a>
+              </li>
+              <li class="nav-item">
+                <a href="#contacts-link" class="nav-link">hire me!</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
       <section class="hero">
         <h1>hi! my name is Jan and welcome to my page</h1>
         <p>note: this page is still under construction</p>
       </section>
-      <section class="projects">
+      <section class="projects" id="projects-link">
         <h1>My projects</h1>
         <div class="cards">
           <div class="card">
             <a href="./qr-code-component-main/index.html"
               ><img
+                class="card-img"
                 src="./qr-code-component-main/images/qrScreenShot.png"
                 alt="qr-code project"
             /></a>
@@ -26,10 +42,39 @@
           <div class="card">
             <a href="./product-preview-card-component/index.html"
               ><img
+                class="card-img"
                 src="./product-preview-card-component/images/screenshot-mobile-view.png"
                 alt="product preview project"
             /></a>
           </div>
+        </div>
+      </section>
+      <section class="contacts" id="contacts-link">
+        <h1>Hire me! Contact me in the following links</h1>
+        <div class="contact-link">
+          <ul class="contact-list">
+            <li class="contact-item">
+              <a href="#" class="contact-link"
+                ><img src="./images/gmail.svg" alt="gmail" class="contact-logo"
+              /></a>
+            </li>
+            <li class="contact-item">
+              <a href="#" class="contact-link"
+                ><img
+                  src="./images/facebook.svg"
+                  alt="facebook"
+                  class="contact-logo"
+              /></a>
+            </li>
+            <li class="contact-item">
+              <a href="#" class="contact-link"
+                ><img
+                  src="./images/github.svg"
+                  alt="github"
+                  class="contact-logo"
+              /></a>
+            </li>
+          </ul>
         </div>
       </section>
     </main>
