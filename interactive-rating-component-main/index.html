@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <title>Frontend Mentor | Interactive rating component</title>
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(64, 57%, 42%); }
+  </style>
+<link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+
+  <!-- Rating state start -->
+<article class="userRating">
+
+  
+  <div class="card">
+    <img class="star" src="images/icon-star.svg" alt="star icon">
+    <h1>How did we do?</h1>
+    <p>
+    Please let us know how we did with your support request. All feedback is appreciated 
+    to help us improve our offering!
+    </p>
+    <ul class="optionContainer">
+      <li class="option">1</li>
+      <li class="option">2</li>
+      <li class="option">3</li>
+      <li class="option">4</li>
+      <li class="option">5</li>
+    </ul>
+    
+  
+    <input class="btn" id="submitBtn" type="submit" value="submit">
+  </div>
+</article>
+  <!-- Rating state end -->
+
+  <!-- Thank you state start -->
+<article class="userThankYou">
+
+<img class="thankYouImage" src="images/illustration-thank-you.svg" alt="thank you illustration">
+<p class="thankYouMessage">You selected <span class="userInput">0</span> out of 5</p>
+
+  <h2 class="blurp">Thank you!</h1>
+<p class="thankYouParagraph">
+  We appreciate you taking the time to give a rating. If you ever need more support, 
+  don't hesitate to get in touch!
+</p>
+  
+</article>
+
+  <!-- Thank you state end -->
+  <div class="attribution">
+    Challenge by
+    <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+      >Frontend Mentor</a
+    >. Coded by <a href="https://www.frontendmentor.io/profile/jandoyaoen1">jandoyaoen1</a>.
+  </div>
+</body>
+<script src="script.js"></script>
+</body>
+</html>
