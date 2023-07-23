@@ -1,0 +1,46 @@
+[
+  {
+    "projectName": "interactive rating component",
+    "link": "/projects/interactive-rating-component-main/index.html",
+    "createdWith": {
+      "html": true,
+      "css": true,
+      "js": true
+    },
+    "description": "This component responds with a thank you pop-up when a rating is submitted. When no rating is submitted, a redo pop-up appears.",
+    "image": "/projects/interactive-rating-component-main/images/finished.png"
+  },
+  {
+    "projectName": "product preview card",
+    "link": "/projects/product-preview-card-component/index.html",
+    "createdWith": {
+      "html": true,
+      "css": true,
+      "js": false
+    },
+    "description": "This component is a responsive component. The component shifts to a vertical layout for small screens.",
+    "image": "/projects/product-preview-card-component/images/screenshot-desktop-view.png"
+  },
+  {
+    "projectName": "qr code component",
+    "link": "/projects/qr-code-component-main/index.html",
+    "createdWith": {
+      "html": true,
+      "css": true,
+      "js": false
+    },
+    "description": "This component displays the qr code in the center.",
+    "image": "/projects/qr-code-component-main/images/qrScreenShot.png"
+  },
+  {
+    "projectName": "expenses chart component",
+    "link": "/projects/expenses-chart-component-main/index.html",
+    "createdWith": {
+      "html": true,
+      "css": true,
+      "js": true
+    },
+    "description": "This component loads the expenses chart dynamically.",
+    "image": "/projects/expenses-chart-component-main/images/finished.png"
+  }
+]

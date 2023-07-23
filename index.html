@@ -1,90 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Jan's Portfolio</title>
-  </head>
-  <body>
-    <main>
-      <header>
-        <div class="flex container">
-          <div class="logo"><img src="./images/smiley.svg" alt="logo" /></div>
-          <nav>
-            <ul class="nav-list">
-              <li class="nav-item">
-                <a href="#projects-link" class="nav-link">projects</a>
-              </li>
-              <li class="nav-item">
-                <a href="#contacts-link" class="nav-link">hire me!</a>
-              </li>
-            </ul>
-          </nav>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#hero">home</a></li>
+        <li><a href="#projectShowcase">projects</a></li>
+        <li><a href="#contacts">contact me</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+    <section class="hero" id="hero">
+      <h1>hi! my name is <span id="name">jan</span> and this is my portofolio!</h1>
+      <img src="./images/004-happy.png" alt="happy emoji">
+    </section>
+    <section class="projectShowcase" id="projectShowcase">
+      <h1>my projects</h1>
+      <!-- projects showcase -->
+      <div class="projects" id="projects">
+        <!-- <div class="project-card">
+          <img src="/projects/interactive-rating-component-main/images/finished.png" alt="Project 1">
+          <h3>Interactive Rating Component</h3>
+          <p>Description of Project 1</p>
+          <a href="/projects/interactive-rating-component-main/index.html" target="_blank">visit site</a>
         </div>
-      </header>
-      <section class="hero">
-        <h1>hi! my name is Jan and welcome to my page</h1>
-        <p>note: this page is still under construction</p>
-      </section>
-      <section class="projects" id="projects-link">
-        <h1>My projects</h1>
-        <div class="cards">
-          <div class="card">
-            <a href="./qr-code-component-main/index.html"
-              ><img
-                class="card-img"
-                src="./qr-code-component-main/images/qrScreenShot.png"
-                alt="qr-code project"
-            /></a>
-          </div>
-          <div class="card">
-            <a href="./product-preview-card-component/index.html"
-              ><img
-                class="card-img"
-                src="./product-preview-card-component/images/screenshot-mobile-view.png"
-                alt="product preview project"
-            /></a>
-            <div class="card">
-              <a href="./interactive-rating-component-main/index.html"
-                ><img
-                  class="card-img"
-                  src="./interactive-rating-component-main/design/finished.png"
-                  alt="interactive rating component"
-              /></a>
-          </div>
+        
+        <div class="project-card">
+          <img src="/projects/product-preview-card-component/images/screenshot-desktop-view.png" alt="Project 2">
+          <h3>Product Preview Card</h3>
+          <p>Description of Project 2</p>
+          <a href="/projects/product-preview-card-component/index.html" target="_blank">Learn More</a>
         </div>
-      </section>
-      <section class="contacts" id="contacts-link">
-        <h1>Hire me! Contact me in the following links</h1>
-        <div class="contact-link">
-          <ul class="contact-list">
-            <li class="contact-item">
-              <a href="#" class="contact-link"
-                ><img src="./images/gmail.svg" alt="gmail" class="contact-logo"
-              /></a>
-            </li>
-            <li class="contact-item">
-              <a href="#" class="contact-link"
-                ><img
-                  src="./images/facebook.svg"
-                  alt="facebook"
-                  class="contact-logo"
-              /></a>
-            </li>
-            <li class="contact-item">
-              <a href="#" class="contact-link"
-                ><img
-                  src="./images/github.svg"
-                  alt="github"
-                  class="contact-logo"
-              /></a>
-            </li>
-          </ul>
-        </div>
-      </section>
-    </main>
-    <script src="app.js"></script>
-  </body>
+        
+        <div class="project-card">
+          <img src="/projects/qr-code-component-main/images/qrScreenShot.png" alt="Project 3">
+          <h3>QR Code Component</h3>
+          <p>Description of Project 3</p>
+          <a href="/projects/qr-code-component-main/index.html" target="_blank">Learn More</a>
+        </div> -->
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="contacts" id="contacts">
+      <h1>Contact me!</h1>
+      <ul>
+        <li><a href="#" target="_blank"><img class="icon" src="./images/002-facebook.png" alt="facebook"></a></li>
+        <li><a href="#" target="_blank"><img class="icon" src="./images/003-google.png" alt="google"></a></li>
+        <li><a href="#" target="_blank"><img class="icon" src="./images/001-github.png" alt="github"></a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="/js/app.js"></script>
+</body>
 </html>
