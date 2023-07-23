@@ -36,8 +36,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [github](https://github.com/jandoyaoen1/Frontend-Mentor/tree/master/projects/expenses-chart-component-main)
+- Live Site URL: [Live Site](https://janjanportfolio.netlify.app/projects/expenses-chart-component-main/index.html)
 
 ## My process
 
