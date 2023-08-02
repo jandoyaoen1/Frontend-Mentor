@@ -1,0 +1,114 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap');
+
+:root {
+  /* colors */
+  --Purple: hsl(259, 100%, 65%);
+  --Light-red: hsl(0, 100%, 67%);
+  --White: hsl(0, 0%, 100%);
+  --Off-white: hsl(0, 0%, 94%);
+  --Light-grey: hsl(0, 0%, 86%);
+  --Smokey-grey: hsl(0, 1%, 44%);
+  --Off-black: hsl(0, 0%, 8%);
+
+  /* font weight */
+  --light: 400;
+  --standard: 700;
+  --veryBold: 800;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--Off-white);
+    color: var(--Off-black);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+main {
+    max-width: 375px;
+    padding: 2em 1em;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--White);
+    border-radius: 30px;
+    border-bottom-right-radius: 100px;
+}
+.logo {
+  width: 3em;
+  height: auto;
+  border-radius: 100%;
+  padding: 0.6em;
+  background-color: var(--Purple);
+  transition: background-color 0.5s ease-in;
+}
+
+.logo:hover {
+  background-color: var(--Off-black);
+}
+
+form {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  gap: 1.5em;
+  margin-bottom: 1em;
+}
+
+label {
+  display: block;
+  text-transform: uppercase;
+  padding-bottom: 0.3em;
+  color: var(--Smokey-grey);
+  font-size: 0.7rem;
+  letter-spacing: 3px;
+}
+
+.error {
+  color: red;
+}
+
+.day > p, .month > p, .year > p {
+  color: red;
+  font-size: 0.7rem;
+  font-weight: var(--light);
+  font-style: italic;
+  padding-top: 0.5em;
+}
+
+input {
+  width: 100%;
+  padding: 0.5em;
+  font-size: 1.1rem;
+  font-weight: var(--veryBold);
+  resize: horizontal;
+
+}
+
+.hide {
+  display: none;
+}
+
+.output h1 {
+    font-style: italic;
+    font-weight: var(--veryBold);
+    font-size: 3rem;
+    line-height: 1.1;
+}
+
+.output h1 .yearDisplay, .output h1 .monthDisplay, .output h1 .dayDisplay {
+  color: var(--Purple);
+}

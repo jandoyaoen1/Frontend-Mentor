@@ -151,13 +151,13 @@ footer {
 #name {
   color: var(--silver);
   animation-name: fontChange;
-  animation-duration: 2s;
+  animation-duration: 6s;
   animation-iteration-count: infinite;
 }
 
 @keyframes fontChange {
   0% {
-    font-family: "Quicksand", sans-serif;
+    font-family: "Cedarville Cursive", cursive;
   }
   20% {
     font-family: "Playfair Display", serif;
@@ -170,9 +170,6 @@ footer {
   }
   80% {
     font-family: "Bebas Neue", sans-serif;
-  }
-  100% {
-    font-family: "Cedarville Cursive", cursive;
   }
 }
 

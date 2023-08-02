@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | Age calculator app</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <form>
+        <div class="day">
+          <label for="day">day</label>
+          <input type="number" name="day" id="day" placeholder="DD" />
+          <p class="emptyDayError hide">This field is required</p>
+          <p class="invalidDayError hide">Must be a valid day</p>
+          <p class="invalidDateError hide">Must be a valid date</p>
+        </div>
+        <div class="month">
+          <label for="month">month</label>
+          <input type="number" name="month" id="month" placeholder="MM" />
+          <p class="emptyMonthError hide">This field is required</p>
+          <p class="invalidMonthError hide">Must be a valid month</p>
+        </div>
+        <div class="year">
+          <label for="year">year</label>
+          <input type="number" name="year" id="year" placeholder="YYYY" />
+          <p class="emptyYearError hide">This field is required</p>
+          <p class="invalidYearError hide">Must be a valid year</p>
+          <p class="pastDateError hide">Must be in the past</p>
+        </div>
+      </form>
+      <div class="logoButton">
+        <img
+          class="logo"
+          src="./assets/images/icon-arrow.svg"
+          alt="arrow icon"
+        />
+      </div>
+      <div class="output">
+        <h1><span class="yearDisplay">--</span>years</h1>
+        <h1><span class="monthDisplay">--</span>months</h1>
+        <h1><span class="dayDisplay">--</span>days</h1>
+      </div>
+    </main>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">janjanmeow</a>.
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
