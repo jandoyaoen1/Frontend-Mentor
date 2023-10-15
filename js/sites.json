@@ -42,5 +42,16 @@
     },
     "description": "This component loads the expenses chart dynamically.",
     "image": "/projects/expenses-chart-component-main/images/finished.png"
+  },
+  {
+    "projectName": "age calculator app",
+    "link": "/projects/age-calculator-app/index.html",
+    "createdWith": {
+      "html": true,
+      "css": true,
+      "js": true
+    },
+    "description": "This app calculates your age",
+    "image": "/projects/age-calculator-app/assets/images/finished.png"
   }
 ]

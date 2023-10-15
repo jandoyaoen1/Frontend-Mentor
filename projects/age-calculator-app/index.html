@@ -29,38 +29,41 @@
   <body>
     <main>
       <form>
-        <div class="day">
-          <label for="day">day</label>
-          <input type="number" name="day" id="day" placeholder="DD" />
-          <p class="emptyDayError hide">This field is required</p>
-          <p class="invalidDayError hide">Must be a valid day</p>
-          <p class="invalidDateError hide">Must be a valid date</p>
+        <div class="inputs">
+          <div class="day">
+            <label id="dayLabel" for="day">day</label>
+            <input type="number" name="day" id="day" placeholder="DD" />
+            <p class="emptyDayError hide">This field is required</p>
+            <p class="invalidDayError hide">Must be a valid day</p>
+            <p class="invalidDateError hide">Must be a valid date</p>
+          </div>
+          <div class="month">
+            <label id="monthLabel" for="month">month</label>
+            <input type="number" name="month" id="month" placeholder="MM" />
+            <p class="emptyMonthError hide">This field is required</p>
+            <p class="invalidMonthError hide">Must be a valid month</p>
+          </div>
+          <div class="year">
+            <label id="yearLabel" for="year">year</label>
+            <input type="number" name="year" id="year" placeholder="YYYY" />
+            <p class="emptyYearError hide">This field is required</p>
+            <p class="invalidYearError hide">Must be a valid year</p>
+            <p class="pastDateError hide">Must be in the past</p>
+          </div>
         </div>
-        <div class="month">
-          <label for="month">month</label>
-          <input type="number" name="month" id="month" placeholder="MM" />
-          <p class="emptyMonthError hide">This field is required</p>
-          <p class="invalidMonthError hide">Must be a valid month</p>
-        </div>
-        <div class="year">
-          <label for="year">year</label>
-          <input type="number" name="year" id="year" placeholder="YYYY" />
-          <p class="emptyYearError hide">This field is required</p>
-          <p class="invalidYearError hide">Must be a valid year</p>
-          <p class="pastDateError hide">Must be in the past</p>
-        </div>
+        <button class="logoButton">
+          <img
+            class="logo"
+            src="./assets/images/icon-arrow.svg"
+            alt="arrow icon"
+          />
+          <hr>
+        </button>
       </form>
-      <div class="logoButton">
-        <img
-          class="logo"
-          src="./assets/images/icon-arrow.svg"
-          alt="arrow icon"
-        />
-      </div>
       <div class="output">
-        <h1><span class="yearDisplay">--</span>years</h1>
-        <h1><span class="monthDisplay">--</span>months</h1>
-        <h1><span class="dayDisplay">--</span>days</h1>
+        <h1 class="yearh1"><span class="yearDisplay">--</span><span class="yearCounter"> years</span></h1>
+        <h1 class="monthh1"><span class="monthDisplay">--</span><span class="monthCounter"> months</span></h1>
+        <h1 class="dayh1"><span class="dayDisplay">--</span><span class="dayCounter"> days</span></h1>
       </div>
     </main>
 
