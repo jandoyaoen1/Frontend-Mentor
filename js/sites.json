@@ -53,5 +53,16 @@
     },
     "description": "This app calculates your age",
     "image": "/projects/age-calculator-app/assets/images/finished.png"
+  },
+  {
+    "projectName": "Newsletter Signup",
+    "link": "/projects/newsletter-sign-up-with-success-message-main/index.html",
+    "createdWith": {
+      "html": true,
+      "css": true,
+      "js": true
+    },
+    "description": "This is a newsletter signup form",
+    "image": "/projects/newsletter-sign-up-with-success-message-main/assets/images/finished.png"
   }
 ]
